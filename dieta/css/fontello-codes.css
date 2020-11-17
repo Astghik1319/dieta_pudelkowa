@@ -1,0 +1,14 @@
+
+.icon-flash:before { content: '\26a1'; } /* '⚡' */
+.icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-ok:before { content: '\2713'; } /* '✓' */
+.icon-cancel:before { content: '\2715'; } /* '✕' */
+.icon-attention-circled:before { content: '\2757'; } /* '❗' */
+.icon-phone:before { content: '\e065'; } /* '' */
+.icon-left-circle:before { content: '\e4a1'; } /* '' */
+.icon-up-circle:before { content: '\e4a3'; } /* '' */
+.icon-logout:before { content: '\e741'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-youtube:before { content: '\f167'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
+.icon-linkedin-rect:before { content: '\f312'; } /* '' */
