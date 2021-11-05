@@ -1,0 +1,605 @@
+/*index - strona główna */
+body
+{
+	background-image: url("img/papyrus-dark.png");
+	font-family:  'Advent Pro', sans-serif;
+	color: white;
+	width: 100%;
+	font-size: 24px;
+	min-height: 100%;
+	margin: 0 !important;
+}
+
+.container
+{
+	width: 100%;
+	position: relative;
+}
+
+.header
+{
+	width: 1200px;
+	height: 150px;
+	padding: 30px 0;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#restaurant_name
+{
+	float: left;
+	color: #ffd75e;
+	font-family:'EB Garamond', serif;
+}
+
+#restaurant_name h1
+{
+	font-size: 54px;
+}
+
+#restaurant_name h3
+{
+	font-size: 28px;
+	margin-left: 100px;
+}
+
+.index, .index:visited, .index:hover, .index:active 
+{
+	text-decoration: none !important;
+	outline: none;
+	color: #ffd75e !important;
+}
+
+#logo
+{
+	float:right;
+	margin-right: 0px;
+}
+
+#restaurant_logo
+{
+	width: 150px;
+}
+	
+.nav
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	background-color: black;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	border-top: 2px solid #0E0E0E;
+	border-bottom: 2px solid #0E0E0E;
+	float: left;
+	display: inline-block;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+	list-style-type: none;
+	font-size: 20px;
+	height: 30px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol > li
+{
+	float: left;
+	width: 20%;
+	height: 40px;
+}
+
+ol > li:hover
+{ 
+	background-color: #0E0E0E;
+}
+
+#contact:hover
+{
+	background-color: black !important;
+}
+
+ol > li a
+{
+	color: white;
+	text-decoration: none;
+}
+
+ol > li a:visited
+{
+	color: white;
+}
+
+ol > li a:hover, ol a:active
+{
+	color: #ffd75e;
+	background-color: #0E0E0E;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+	background-color: #0E0E0E;
+	color: white;
+	z-index: 100;
+}
+
+ol > li > ul >li
+{
+	background-color: #0E0E0E ;
+	position: relative;
+}
+
+ol> li > ul >li:hover
+{
+	background-color: black;
+	color: #ffd75e;
+}
+
+#fb 
+{
+	color: #4668b3 !important;
+	width: 80px;
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	
+}
+
+#tt 
+{
+	color: #3095d3 !important;
+	width: 80px;
+	font-size: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#yt 
+{
+	color: #d94348 !important;
+	width: 80px;
+	font-size: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#ln 
+{
+	color:  #0072b1 !important;
+	width: 80px;
+	font-size: 50px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#fb a
+{
+	color: #4668b3 !important;
+	width: 80px;
+	
+}
+
+#tt a
+{
+	color: #3095d3 !important;
+	width: 80px;
+}
+
+#yt a
+{
+	color: #d94348 !important;
+	width: 80px;
+}
+
+#ln a
+{
+	color:  #0072b1 !important;
+	width: 80px;
+}
+
+#fb:hover
+{
+	color: #4668b3 !important;
+	width: 80px;
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-color: #0E0E0E;
+}
+
+#tt:hover
+{
+	color: #3095d3 !important;
+	width: 80px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #0E0E0E;
+}
+
+#yt:hover
+{
+	color: #d94348 !important;
+	width: 80px;
+	font-size: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #0E0E0E;
+}
+
+#ln:hover
+{
+	color:  #0072b1 !important;
+	width: 80px;
+	font-size: 50px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-color: #0E0E0E;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.wrapper:
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.content
+{
+	width: 1000px;
+	float: center;
+	margin: auto;
+	margin-top: 40px;
+	text-align: justify;
+	background-color: black;
+	padding: 20px;
+	padding-bottom: 40px;
+}
+
+.content > h2
+{
+	text-align: left;
+	margin: 40px;
+}
+
+.covid
+{
+	float: right;
+	width: 250px;
+	background-color: black;	
+	border: 2px solid #0E0E0E;
+	text-align: center;
+	display: inline-block;
+	
+}
+
+.covid b 
+{
+	color: red;
+}
+
+.social
+{
+	float: left;
+	width: 80px;
+	background-color: black;	
+	text-align: center;
+	display: inline-block;
+	border: 2px solid #0E0E0E;
+}
+
+.glued
+{
+	position: fixed;
+	width: 250px;
+	top: 250px;
+	right: 0;
+	z-index: 100;
+}
+
+.adhesive
+{
+	position: fixed;
+	width: 80px;
+	top: 250px;
+	left: 0;
+	z-index: 100;
+}
+
+.alert
+{
+	margin: auto;
+	padding: 5;
+	color: red;
+	font-size: 100px;
+	
+}
+
+.footer
+{
+	width: 100%;
+	text-align: right;
+	margin: 0 auto;
+	padding-top: 20px; 
+	padding-bottom: 10px; 
+	font-size: 16px;
+	height: 40px;
+	color: #c2c8d1;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+.icon-flash
+{
+	color: red;
+}
+
+.icon-mail
+{
+	color: #c2c8d1;
+}
+
+.icon-mail:hover
+{
+	color: white;
+}
+
+.icon-phone
+{
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+/* about - o nas*/
+
+.address
+{
+	float: left;
+	width: 300px;
+	margin: 40px;
+	margin-top: 120px;
+	letter-spacing: 3px;
+	color: #ffd75e;
+	text-align: bottom;
+	padding: 20px;
+	line-height: 2;
+}
+
+.map
+{
+	float: right;
+	width: 580px;
+	margin-bottom: 40px;
+} 
+
+.google_map
+{
+	position: relative;
+	margin: auto;
+	border: 40px solid #0E0E0E;
+}
+
+.history > h2
+{
+	text-align: left;
+	margin: 40px;
+}
+
+/*philosophy - filozofia */
+
+.credo
+{
+	margin: 40px;
+	list-style: "❧	";
+	color: #ffd75e;
+	line-height: 2;
+	letter-spacing: 6px;
+}
+
+/*crew - nasza ekipa */
+
+.portret
+{
+	float: left;
+	width: 300 px;
+}
+
+.description
+{
+	float: right;
+	width: 600px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+b
+{
+	color: #ffd75e;
+}
+
+.line
+{
+	color: #ffd75e;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	font-size: 40px;
+	margin: auto;
+	
+}
+
+/* menu - Plan diety */
+
+.diet-option
+{	
+	margin: 20px;
+	float: left;
+	width: 460px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.diet-option-2
+{
+	margin: 20px;
+	float: right;
+	width: 460px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.box
+{
+	margin: 20px;
+	width: 380px;
+	height: 380px;
+}
+
+#space
+{
+	margin-left: 100px;
+	padding: 50px;
+	color: #ffd75e;
+	width: 100%;
+	height: 60px;
+	letter-spacing: 3px;
+}
+
+#display
+{
+width: 1000px;
+height: auto;
+margin-right: 20px;
+}
+
+#display > h2 
+{
+	color:  #ffd75e;
+	line-height: 4;
+	letter-spacing: 2px;
+}
+
+#display > h4
+{
+	margin-left: 30px;
+	line-height: 2;
+}
+
+#display > p 
+{
+	margin: 40px;
+	margin-left: 60px;
+}
+
+/* price - cennik */
+
+table{
+	border-spacing: 15px;
+	width: 960px;
+	padding: 40px;
+	margin-top: 80px;
+	text-align: center;
+	border-collapse: collapse;
+	border: 5px groove white;
+}
+
+th {
+	background-color: #0E0E0E;
+	padding: 40px;
+	border: 5px groove white;
+	letter-spacing: 3px;
+}
+
+td {
+	text-align: center;
+	padding: 20px;
+	border-bottom: 1px solid white;
+	letter-spacing: 1px;
+}
+
+td > p
+{
+	text-align: left;
+	margin-left: 15px;
+	color: #ffd75e;
+
+}
+
+tr:hover {
+	background-color: #0E0E0E;
+}
+
+/* opinions - recenzje*/
+.opinion {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.reviews {
+	width: 1000px;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: white;
+}
+
+a:hover, ol a:active
+{
+	color: #ffd75e;
+}
+
+.rec
+{
+	line-height: 2;
+	margin-left: 160px;
+}
+
+.adding{
+	width: 700px;
+}
+
+
+/* inv */
+
+#invitation {
+	margin-top: 60px;
+	padding: 40px;
+	text-align: center;
+}
+/*font-family: 'Advent Pro', sans-serif; tekst
+font-family: 'Barlow Semi Condensed', sans-serif; nav
+font-family: 'EB Garamond', serif; logo */

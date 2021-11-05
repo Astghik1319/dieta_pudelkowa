@@ -1,0 +1,19 @@
+<?php
+   
+   $sql = "SELECT * FROM opinions";
+
+    
+foreach ($conn->query($sql) as $row) 
+    
+    {
+        $pole1=$row['op_note'];
+        $pole2=$row['op_title'];
+        $pole3=$row['op'];
+        $pole4=$row['op_name'];
+        
+        echo "<tr><td>" . $pole1. "</td><td>" . $pole2. "</td><td>" . $pole4. "</td></tr>";
+    }
+        
+        echo "</table>";
+        
+?>  
